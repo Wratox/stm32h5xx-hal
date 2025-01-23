@@ -77,6 +77,9 @@ pub mod delay;
 pub mod rng;
 
 #[cfg(feature = "device-selected")]
+pub mod spi;
+
+#[cfg(feature = "device-selected")]
 mod sealed {
     pub trait Sealed {}
 }
